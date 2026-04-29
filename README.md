@@ -1,6 +1,6 @@
 # Aqwam Sampler Configurations
 
-| Sampler Name                                                              | Property                                                                                          | Documentation Percentage |
-|---------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|--------------------------|
-| [Universal Character Cognition](Universal-Character-Cognition-Sampler.md) | Excellent For Converting Character Prompts To A Format That Language Models Strongly Conforms To. | 100%                     |
-| [Purist Character Cognition](Purist-Character-Cognition-Sampler.md)       |                                                                                                   | 0%                       |
+| Sampler Name                                                                  | Property                                                                                          | Documentation Percentage |
+|-------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|--------------------------|
+| [Universal Character Cognition](Universal-Character-Cognition-Sampler.md)     | Excellent For Converting Character Prompts To A Format That Language Models Strongly Conforms To. | 100%                     |
+| [Interactive Character Cognition](Interactive-Character-Cognition-Sampler.md) |                                                                                                   | 0%                       |
