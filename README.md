@@ -111,7 +111,7 @@ This sampler configuration creates a three-stage cognitive pipeline:
 
    * `mirostat_tau`: Controls how "normal" the character is trying to sound
    * `mirostat_eta`: How quickly to adjust when the character is being weird
-   * `typical_p=0.85`: Gives character prompt 85% dominance over output
+   * `typical_p=0.95`: Gives character prompt 95% dominance over output
    * Creates "statistical character prison" that maintains archetype
    * Not context-free but context-resilient
 
