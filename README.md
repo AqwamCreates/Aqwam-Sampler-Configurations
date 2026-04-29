@@ -88,12 +88,12 @@ These samplers are stacked in order as shown below.
 
 ```
 1. temperature           # Creativity
-2. top_k                 # Expression Budget For Optimization (Can Disable This)
+2. top_k                 # Expression Budget For Optimization (Can Disable This For Higher Quality)
 3. top_p                 # Expressive Range
 4. mirostat              # Coherence Enforcement
 5. typical_p             # Prompt Control (IMPORTANT)
 6. min_p                 # Nonsense Filter
-7. top_n_sigma           # Character Oddity Removal (Can Disable This)
+7. top_n_sigma           # Character Oddity Removal (Can Disable This For More Flexibility)
 8. dry                   # Removes Sequence Repetition
 9. repetition_penalty    # Natural Flow Maintenance
 ```
