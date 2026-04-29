@@ -225,7 +225,10 @@ Conclusion: UCC doesn't eliminate context needs but reduces them dramatically an
 
 | Model Name                                        | Model Parameter Size | Quantization | Description                                                 |
 |---------------------------------------------------|----------------------|--------------|-------------------------------------------------------------|
-| DarkIdol Llama-3.1 Instruct 1.2 Uncensored        | 8B                   | Q5_K_L       | Best All Rounder                                            |
+| Gemma 4 E4B Uncensored                            | 8B                   | Q6_K         | Best All Rounder                                            |
+| Gemma 4 E4B Uncensored                            | 8B                   | Q4_K         | Near-Best Quality For More Context And Speed                |
+| Qwen 3.5 4B                                       | 4B                   | Q6_K         | 2nd Best All Rounder                                        |
+| DarkIdol Llama-3.1 Instruct 1.2 Uncensored        | 8B                   | Q5_K_L       | 3rd Best All Rounder                                        |
 | DarkIdol Llama-3.1 Instruct 1.2 Uncensored        | 8B                   | IQ4_XS       | Q5_K_L Quality But With Higher Inference Speed              |
 | DarkIdol Llama-3.1 Instruct 1.2 Uncensored        | 8B                   | IQ3_XXS      | Q3_K_L With Formatting Issues                               |
 | Llama3 Dark Planet HERETIC Uncensored Abliterated | 8B                   | i1 Q3_K_L    | Comparable To DarkIdol But With More Recent Training Data   |
