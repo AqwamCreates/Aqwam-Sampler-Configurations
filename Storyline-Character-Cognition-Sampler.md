@@ -1,8 +1,8 @@
-# Momentum Character Cognition Sampler
+# Storyline Character Cognition Sampler
 
 > A Dynamic Flow System For Natural Narrative Progression
 > Functionally Equivalent To A River Current For Storytelling
-> Abbreviated As MCC Sampler
+> Abbreviated As SCC Sampler
 
 ## What This Sampler Stack Can Do
 
