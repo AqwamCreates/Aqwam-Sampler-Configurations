@@ -1,25 +1,27 @@
 # Momentum-Character-Cognition-Sampler
 
-# A Reality-First Generation System For Dynamic Social Simulation
-> Functionally Equivalent To A Physics Engine For Natural Language
-> Abbreviated As ICC Sampler
+# Momentum Character Cognition (MCC) Sampler
+
+> A Dynamic Flow System For Natural Narrative Progression
+> Functionally Equivalent To A River Current For Storytelling
+> Abbreviated As MCC Sampler
 
 ## What This Sampler Stack Can Do
 
-*   **Enforce Physical Logic:** Prevents hallucinations like teleportation, impossible positioning, or ignoring user actions.
-*   **Dynamic Reactivity:** Characters respond to specific events (e.g., falling off a chair) rather than generic prompts.
-*   **Trope Suppression:** Actively filters out high-probability clichés (e.g., instant lap-sitting) via aggressive probability flooring.
-*   **Universal Compatibility:** Works identically well on Serene Angels, Tsunderes, Villains, and Normal Humans without tuning.
-*   **Improvisational Depth:** Forces characters to generate unique responses based on context rather than training data averages.
-*   **Zero "Scripted" Feel:** Eliminates the feeling of talking to a bot reciting lines.
+*   **Natural Pacing:** Creates a sense of gradual build-up rather than instant jumps or static responses.
+*   **Grounded Persuasion:** Characters actively pursue goals (romance, comfort, argument) without breaking physical logic.
+*   **Smooth Transitions:** Eliminates the "stiffness" of strict logic filters while preventing the "teleportation" of high-entropy models.
+*   **Idealized Archetypes:** Perfect for characters who are meant to be serene, seductive, confident, or smoothly manipulative.
+*   **Balanced Agency:** The character drives the scene forward, but respects the user's physical boundaries.
 
 ## The Core Discovery
 
-We found that **Logical Probability Flooring (`min_p`)** is superior to **Typicality Enforcement (`typical_p`)** for preventing hallucinations.
-*   **UCC Approach:** High `typical_p` forces the model to pick the "most character-like" token, which often defaults to training data tropes.
-*   **ICC Approach:** High `min_p` deletes any token that doesn't fit the *immediate physical context*, forcing the model to improvise a logical reaction even if it's less "typical."
+We found that combining a **High Logic Floor (`min_p: 0.7`)** with a **Moderate Typicality (`typical_p: 0.85`)** and **Low Perplexity Target (`mirostat_tau: 2`)** creates a "Seductive Logic."
+*   The `min_p` prevents hallucinations (no lap sitting unless walked over).
+*   The `typical_p` allows the character to follow their archetype smoothly (no awkward hesitation).
+*   The `tau: 2` keeps the tone calm, deliberate, and unshakeable.
 
-## ICC Sampler Stack
+## MCC Sampler Stack
 
 These samplers are stacked in this specific order to prioritize logic before creativity.
 
