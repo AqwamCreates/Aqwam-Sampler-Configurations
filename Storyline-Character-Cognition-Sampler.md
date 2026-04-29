@@ -1,16 +1,16 @@
 # Storyline Character Cognition Sampler
 
-> A Dynamic Flow System For Natural Narrative Progression
-> Functionally Equivalent To A River Current For Storytelling
+> A Narrative-First Generation System For Cinematic Flow
+> Functionally Equivalent To A Movie Director Guiding The Scene
 > Abbreviated As SCC Sampler
 
 ## What This Sampler Stack Can Do
 
-*   **Natural Pacing:** Creates a sense of gradual build-up rather than instant jumps or static responses.
-*   **Grounded Persuasion:** Characters actively pursue goals (romance, comfort, argument) without breaking physical logic.
-*   **Smooth Transitions:** Eliminates the "stiffness" of strict logic filters while preventing the "teleportation" of high-entropy models.
-*   **Idealized Archetypes:** Perfect for characters who are meant to be serene, seductive, confident, or smoothly manipulative.
-*   **Balanced Agency:** The character drives the scene forward, but respects the user's physical boundaries.
+*   **Cinematic Pacing:** Smooths out awkward conversational gaps to create a continuous, flowing narrative.
+*   **Character Agency:** Characters actively drive the plot forward with purposeful actions rather than passive reactions.
+*   **Atmospheric Depth:** Prioritizes sensory details (scents, lighting, subtle gestures) that enhance the mood of the scene.
+*   **Idealized Realism:** Balances physical logic with "movie magic" grace (characters move fluidly, dialogue is witty/timed perfectly).
+*   **Narrative Arc:** Ensures every response contributes to a larger story beat rather than just answering the immediate prompt.
 
 ## The Core Discovery
 
