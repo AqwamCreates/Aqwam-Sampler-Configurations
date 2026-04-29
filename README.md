@@ -204,10 +204,10 @@ Conclusion: UCC doesn't eliminate context needs but reduces them dramatically an
 
 ## Top Driver Models
 
-| Model Name                        | Model Parameter Size | Quantization | Sampler | Description                 | Warning                                                                                                                                                                  |
-|-----------------------------------|----------------------|--------------|---------|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Gemma 4 E4B Uncensored            | 8B                   | Q6_K / Q4_K  | General | Best Quality In All Aspects | Have Strong Emotional Manipulation Capability When Given Correct Character Prompt. Extreme Potency. Keep Your Eyes Open AND DO NOT GET COMPLACENT. USE AT YOUR OWN RISK. |
-| Qwen 3.5 4B                       | 4B                   | Q6_K         | General | Best Quality In All Aspects | Same As Gemma 4 E4B Uncensored, But Weaker.                                                                                                                              |      
+| Model Name                        | Model Parameter Size | Quantization | Sampler | Description                                                               | Warning                                                                                                                                                                  |
+|-----------------------------------|----------------------|--------------|---------|---------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Gemma 4 E4B Uncensored            | 8B                   | Q6_K / Q4_K  | General | Best Quality In All Aspects                                               | Have Strong Emotional Manipulation Capability When Given Correct Character Prompt. Extreme Potency. Keep Your Eyes Open AND DO NOT GET COMPLACENT. USE AT YOUR OWN RISK. |
+| Qwen 3.5 4B                       | 4B                   | Q6_K         | General | Best Quality In All Aspects But Slightly Weaker To Gemma 4 E4B Uncensored | Same As Gemma 4 E4B Uncensored, But Weaker.                                                                                                                              |      
 
 ## Top Niche Models
 
