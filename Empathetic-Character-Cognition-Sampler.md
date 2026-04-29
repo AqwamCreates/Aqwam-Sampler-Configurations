@@ -16,8 +16,8 @@
 | Mirostat Tau                 | 2                 | N/A                                | N/A                                |
 | Mirostat Eta                 | 0.2               | Strictly 0.1 (Controlled, Precise) | Strictly 0.2 (Dynamic, Responsive) |
 | Dynamic Temperature          | true              | N/A                                | N/A                                |
-| Dynamic Temperature Low      | 0.3               | N/A                                | N/A                                |
-| Dynamic Temperature High     | 0.7               | N/A                                | N/A                                |
+| Dynamic Temperature Low      | 0.1               | N/A                                | N/A                                |
+| Dynamic Temperature High     | 1               | N/A                                | N/A                                |
 | Dynamic Temperature Exponent | 2                 | N/A                                | N/A                                |
 | Min P                        | 0.9               | 0.6                                | 0.9                                |
 | Top P                        | 0.95              | 0.8                                | 0.95                               |
