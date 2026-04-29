@@ -2,11 +2,11 @@
 
 ```
 1. mirostat            # Focus Control
-2. dynamic_temperature # Adaptation Control
+2. dynamic_temperature # Emotional Adaptation Control
 3. min_p               # Logic Control   
 4. top_p               # Quality Control 
 5. repetition_penalty  # Natural Flow Maintenance
-6. temperature         # Amplication Control
+6. temperature         # Creative Control
 7. typical_p           # Consistency Control  
 ```
 
@@ -23,5 +23,5 @@
 | Top P                        | 0.95              | 0.8                                | 0.95                               |
 | Repetition Penalty           | 1.1               | N/A                                | N/A                                |
 | Repetition Penalty Range     | 4096              | N/A                                | N/A                                |
-| Temperature                  | 0.65              | 0.2 (High Amplification)           | 0.5 (Low Amplification)            |
+| Temperature                  | 0.65              | 0.2 (Low Creativity)               | 0.5 (High Creativity)              |
 | Typical P                    | 0.95              | 0.85 (Low Potency)                 | 0.95 (High Potency)                |
