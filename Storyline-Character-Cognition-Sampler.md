@@ -24,7 +24,7 @@ We found that combining a **High Logic Floor (`min_p: 0.7`)** with a **Moderate 
 These samplers are stacked in this specific order to prioritize logic before creativity.
 
 ```
-1. typical_p             # Prompt Control
+1. typical_p             # Potency Control
 2. mirostat              # Pace Control
 3. temperature           # Heat Control
 4. min_p                 # Logic Control
@@ -36,7 +36,7 @@ These samplers are stacked in this specific order to prioritize logic before cre
 
 | Setting                  | Recommended Value | Lower Bound Value                  | Upper Bound                        |
 |--------------------------|-------------------|------------------------------------|------------------------------------|
-| Typical P                | 0.95              | 0.85 (Low Momentum)                | 0.95 (High Momentum)               |
+| Typical P                | 0.95              | 0.85 (Low Potency)                 | 0.95 (High Potency)                |
 | Mirostat Mode            | 2                 | Strictly 1 (Gentle Role Diffusion) | Strictly 2 (High Role Contrast)    |
 | Mirostat Tau             | 2                 | N/A                                | N/A                                |
 | Mirostat Eta             | 0.2               | Strictly 0.1 (Controlled, Precise) | Strictly 0.2 (Dynamic, Responsive) |
