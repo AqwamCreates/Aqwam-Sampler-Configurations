@@ -1,13 +1,13 @@
 # Empathetic Character Cognition Sampler
 
 ```
-1. mirostat           # Focus Control
-2. dynamic_temperature
-3. min_p                
-4. top_p               
-5. repetition_penalty # Natural Flow Maintenance
-6. temperature        # Amplication Control
-7. typical_p          # Consistency Control  
+1. mirostat            # Focus Control
+2. dynamic_temperature # Adaptation Control
+3. min_p               # Logic Control   
+4. top_p               # Quality Control 
+5. repetition_penalty  # Natural Flow Maintenance
+6. temperature         # Amplication Control
+7. typical_p           # Consistency Control  
 ```
 
 | Setting                      | Recommended Value | Lower Bound Value                  | Upper Bound                        |
