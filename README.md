@@ -70,7 +70,7 @@ We found that proper prior management through sampler configuration can make sma
 
 ### What It Actually Does
 
-* Prioritizes character consistency above all else via typical_p=0.9
+* Prioritizes character consistency above all else via typical_p=0.95
 
 * Enables context-efficient character maintenance (not context-free)
 
