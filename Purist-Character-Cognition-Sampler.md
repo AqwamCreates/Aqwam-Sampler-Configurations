@@ -2,7 +2,7 @@
 
 ```
 1. min_p                 # Logic
-2. top_p                 #
+2. top_p                 # Quality Control
 3. typical_p             # Prompt Control
 4. temperature           # Quality Token Amplifier
 5. mirostat              # Coherence Enforcement
