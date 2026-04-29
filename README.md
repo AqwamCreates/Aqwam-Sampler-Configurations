@@ -162,7 +162,7 @@ Conclusion: UCC doesn't eliminate context needs but reduces them dramatically an
 | Top K                    | 50                | 40 (Low Expression Budget)         | 60 (High Expression Budget)        |
 | Mirostat Mode            | 2                 | Strictly 1 (Gentle Role Diffusion) | Strictly 2 (High Role Contrast)    |
 | Mirostat Tau             | 3                 | N/A                                | N/A                                |
-| Mirostat Eta             | 2                 | Strictly 0.1 (Controlled, Precise) | Strictly 0.2 (Dynamic, Responsive) |
+| Mirostat Eta             | 0.2               | Strictly 0.1 (Controlled, Precise) | Strictly 0.2 (Dynamic, Responsive) |
 | Typical P                | 0.95              | 0.85 (Low Prompt Control)          | 0.95 (High Prompt Control)         |
 | top_n_sigma              | 4.5               | N/A                                | N/A                                |
 | DRY Multipler            | 0.35              | N/A                                | N/A                                |
