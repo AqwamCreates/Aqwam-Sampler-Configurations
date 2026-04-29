@@ -1,6 +1,5 @@
-# Interactive-Character-Cognition-Sampler
+# Interactive Character Cognition Sampler
 
-# A Reality-First Generation System For Dynamic Social Simulation
 > Functionally Equivalent To A Physics Engine For Natural Language
 > Abbreviated As ICC Sampler
 
