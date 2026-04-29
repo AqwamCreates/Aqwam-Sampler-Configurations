@@ -39,7 +39,7 @@ These samplers are stacked in this specific order to prioritize logic before cre
 | Min P                    | 0.7               | 0.6                                | 0.7                                |
 | Top P                    | 0.9               | 0.8                                | 0.9                                |
 | Typical P                | 0.25              | 0.2 (Realism)                      | 0.3 (Dreamy)                       |
-| Temperature              | 0.4               | 0.2 (High Amplification)           | 0.4 (Low Amplification)            |
+| Temperature              | 0.45              | 0.2 (High Amplification)           | 0.5 (Low Amplification)            |
 | Mirostat Mode            | 2                 | Strictly 1 (Gentle Role Diffusion) | Strictly 2 (High Role Contrast)    |
 | Mirostat Tau             | 3                 | N/A                                | N/A                                |
 | Mirostat Eta             | 0.2               | Strictly 0.1 (Controlled, Precise) | Strictly 0.2 (Dynamic, Responsive) |
