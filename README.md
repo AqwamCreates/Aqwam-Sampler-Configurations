@@ -163,7 +163,7 @@ Conclusion: UCC doesn't eliminate context needs but reduces them dramatically an
 | Mirostat Mode            | 2                 | Strictly 1 (Gentle Role Diffusion) | Strictly 2 (High Role Contrast)    |
 | Mirostat Tau             | 3                 | N/A                                | N/A                                |
 | Mirostat Eta             | 2                 | Strictly 0.1 (Controlled, Precise) | Strictly 0.2 (Dynamic, Responsive) |
-| Typical P                | 0.85              | 0.85 (Low Prompt Control)          | 0.9 (High Prompt Control)          |
+| Typical P                | 0.85              | 0.85 (Low Prompt Control)          | 0.95 (High Prompt Control)         |
 | top_n_sigma              | 4.5               | N/A                                | N/A                                |
 | DRY Multipler            | 0.35              | N/A                                | N/A                                |
 | dry_allowed_length       | 2                 | N/A                                | N/A                                |
@@ -202,7 +202,14 @@ Conclusion: UCC doesn't eliminate context needs but reduces them dramatically an
 * Nano Sampler Configuration (Works Consistently Across 2B-13B).
 * Feels Like You Upgraded The CoT Model For 2-3B Parameters For Q2 / Q3 Inference Speed.
 
-## Top Models
+## Top Driver Models
+
+| Model Name                        | Model Parameter Size | Quantization | Sampler | Description                 | Warning                                                                                                                                                                  |
+|-----------------------------------|----------------------|--------------|---------|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Gemma 4 E4B Uncensored            | 8B                   | Q6_K / Q4_K  | General | Best Quality In All Aspects | Have Strong Emotional Manipulation Capability When Given Correct Character Prompt. Extreme Potency. Keep Your Eyes Open AND DO NOT GET COMPLACENT. USE AT YOUR OWN RISK. |
+| Qwen 3.5 4B                       | 4B                   | Q6_K         | General | Best Quality In All Aspects | Same As Gemma 4 E4B Uncensored, But Weaker.                                                                                                                              |      
+
+## Top Niche Models
 
 | Model Name                                 | Model Parameter Size | Quantization | Sampler | Description                                                   | Warning                                                                                                                                                                  |
 |--------------------------------------------|----------------------|--------------|---------|---------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -211,7 +218,6 @@ Conclusion: UCC doesn't eliminate context needs but reduces them dramatically an
 | Qwen3 Hivemind Inst Hrtic Ablit Uncensored | 8B                   | i1 IQ3_M     | Micro   | Alternative To DarkIdol                                       | Same As DarkIdol, But Weaker.                                                                                                                                            |                                                         
 | Qwen3 Hivemind Instruct NeoMAX D_AU        | 4B                   | IQ3_M        | Micro   | Small But Mighty                                              | Not Applicable.                                                                                                                                                          |
 | DeepSeek R1 Distill Qwen Uncensored        | 7B                   | IQ2_K        | Nano    | Higher Depth For Lower Speed (From Thinking Chain-Of-Thought) | Not Applicable.                                                                                                                                                          |
-
 
 ## Model-Sampler Compatibility Report
 
