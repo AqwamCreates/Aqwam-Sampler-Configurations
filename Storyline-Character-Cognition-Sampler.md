@@ -25,9 +25,9 @@ These samplers are stacked in this specific order to prioritize logic before cre
 
 ```
 1. typical_p             # Prompt Control
-2. mirostat              # Coherence Enforcement
-3. temperature           # Quality Token Amplifier
-4. min_p                 # Logic
+2. mirostat              # Pace Control
+3. temperature           # Heat Control
+4. min_p                 # Logic Control
 5. top_p                 # Quality Control
 6. repetition_penalty    # Natural Flow Maintenance
 ```
