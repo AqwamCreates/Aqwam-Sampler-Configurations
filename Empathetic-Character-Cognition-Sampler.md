@@ -1,16 +1,27 @@
 # Empathetic Character Cognition Sampler
 
 ```
-1. mirostat_mode: 2         
-2. mirostat_tau: 3         
-3. mirostat_eta: 0.2         
-4. dynamic_temperature: true 
-5. dynatemp_low: 0.3
-6. dynatemp_high: 0.7
-7. dynatemp_exponent: 2
-8. min_p: 0.4                
-9. top_p: 0.95               
-10. repetition_penalty: 1.11  
-11. temperature: 0.65          
-12. typical_p: 0.9            
+1. mirostat      
+2. dynamic_temperature
+3. min_p                
+4. top_p               
+5. repetition_penalty
+6. temperature     
+7. typical_p            
 ```
+
+| Setting                      | Recommended Value | Lower Bound Value                  | Upper Bound                        |
+|------------------------------|-------------------|------------------------------------|------------------------------------|
+| Mirostat Mode                | 2                 | Strictly 1 (Gentle Role Diffusion) | Strictly 2 (High Role Contrast)    |
+| Mirostat Tau                 | 2                 | N/A                                | N/A                                |
+| Mirostat Eta                 | 0.2               | Strictly 0.1 (Controlled, Precise) | Strictly 0.2 (Dynamic, Responsive) |
+| Dynamic Temperature          | true              | N/A                                | N/A                                |
+| Dynamic Temperature Low      | 0.3               | N/A                                | N/A                                |
+| Dynamic Temperature High     | 0.7               | N/A                                | N/A                                |
+| Dynamic Temperature Exponent | 2                 | N/A                                | N/A                                |
+| Min P                        | 0.9               | 0.6                                | 0.9                                |
+| Top P                        | 0.95              | 0.8                                | 0.95                               |
+| Repetition Penalty           | 1.1               | N/A                                | N/A                                |
+| Repetition Penalty Range     | 4096              | N/A                                | N/A                                |
+| Temperature                  | 0.65              | 0.2 (High Amplification)           | 0.5 (Low Amplification)            |
+| Typical P                    | 0.95              | 0.85 (Low Potency)                 | 0.95 (High Potency)                |
