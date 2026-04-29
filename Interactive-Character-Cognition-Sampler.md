@@ -23,7 +23,7 @@ We found that **Logical Probability Flooring (`min_p`)** is superior to **Typica
 These samplers are stacked in this specific order to prioritize logic before creativity.
 
 ```
-1. min_p                 # Logic
+1. min_p                 # Logic Control
 2. top_p                 # Quality Control
 3. typical_p             # Prompt Control
 4. temperature           # Quality Token Amplifier
