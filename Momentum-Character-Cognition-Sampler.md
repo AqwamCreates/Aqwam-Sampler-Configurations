@@ -1,7 +1,5 @@
 # Momentum-Character-Cognition-Sampler
 
-# Momentum Character Cognition (MCC) Sampler
-
 > A Dynamic Flow System For Natural Narrative Progression
 > Functionally Equivalent To A River Current For Storytelling
 > Abbreviated As MCC Sampler
