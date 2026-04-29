@@ -1,4 +1,4 @@
-# Purist-Character-Cognition-Sampler
+# Interactive-Character-Cognition-Sampler
 
 ```
 1. min_p                 # Logic
