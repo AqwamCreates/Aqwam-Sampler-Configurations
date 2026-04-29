@@ -1,3 +1,5 @@
+# Empathetic Character Cognition Sampler
+
 ```
 1. mirostat_mode: 2         
 2. mirostat_tau: 3         
