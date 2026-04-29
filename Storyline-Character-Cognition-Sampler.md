@@ -41,7 +41,7 @@ These samplers are stacked in this specific order to prioritize logic before cre
 | Mirostat Tau             | 2                 | N/A                                | N/A                                |
 | Mirostat Eta             | 0.2               | Strictly 0.1 (Controlled, Precise) | Strictly 0.2 (Dynamic, Responsive) |
 | Temperature              | 0.65              | 0.2 (High Amplification)           | 0.5 (Low Amplification)            |
-| Min P                    | 0.7               | 0.6                                | 0.7                                |
+| Min P                    | 0.9               | 0.6                                | 0.9                                |
 | Top P                    | 0.95              | 0.8                                | 0.95                               |
 | Repetition Penalty       | 1.1               | N/A                                | N/A                                |
 | Repetition Penalty Range | 4096              | N/A                                | N/A                                |
