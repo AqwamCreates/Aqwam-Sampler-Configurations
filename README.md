@@ -19,7 +19,7 @@
 2. dynamic_temperature # Restoration Control
 ```
 
-| Setting                      | Recommended Value | Lower Bound Value                  | Upper Bound                        |
+| Setting                      | Recommended Value | Lower Bound Value                  | Upper Bound Value                  |
 |------------------------------|-------------------|------------------------------------|------------------------------------|
 | Mirostat Mode                | 2                 | Strictly 1 (Gentle Role Diffusion) | Strictly 2 (High Role Contrast)    |
 | Mirostat Tau                 | 2                 | N/A                                | N/A                                |
@@ -36,10 +36,10 @@
 2. top_p               # Quality Control
 ```
 
-| Setting                      | Recommended Value | Lower Bound Value                  | Upper Bound                        |
+| Setting                      | Recommended Value | Lower Bound Value                  | Upper Bound Value                  |
 |------------------------------|-------------------|------------------------------------|------------------------------------|
 | Min P                        | 0.9               | 0.6                                | 0.9                                |
-| Top P                        | 0.9               | 0.25 (Low Quants)                  | 0.95 (High Quants)                 |
+| Top P                        | 0.9               | 0.25 (<=Q3)                        | 0.95 (>=Q4)                        |
 
 ### Consistency Controller
 
@@ -47,6 +47,6 @@
 1. typical_p           # Consistency Control  
 ```
 
-| Setting                      | Recommended Value | Lower Bound Value                  | Upper Bound                        |
+| Setting                      | Recommended Value | Lower Bound Value                  | Upper Bound Value                  |
 |------------------------------|-------------------|------------------------------------|------------------------------------|
 | Typical P                    | 0.95              | 0.85 (Low Control)                 | 0.95 (High Control)                |
