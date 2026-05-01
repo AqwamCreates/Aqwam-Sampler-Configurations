@@ -1,4 +1,4 @@
-# Test Character Cognition Sampler
+# Kinetic Character Cognition Sampler
 
 ```
 1. mirostat            # Focus Control
@@ -7,7 +7,7 @@
 4. top_p               # Quality Control
 5. typical_p           # Consistency Control
 6. repetition_penalty  # Natural Flow Maintenance
-7. temperature
+7. temperature         # Creativity Control
 ```
 
 | Setting                      | Recommended Value | Lower Bound Value                  | Upper Bound Value                  |
