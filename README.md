@@ -11,3 +11,32 @@
 | [Kinetic Character Cognition](Kinetic-Character-Cognition-Sampler.md)         | High-Velocity Response Engine And Quantization Shield. Converts character prompts into extremely reactive agent that are resistant to quantizations.                           |
 
 ## Sampler Modules
+
+### Quant Denoiser
+
+```
+1. mirostat            # Focus Control
+2. dynamic_temperature # Emotional Adaptation Control
+```
+
+| Setting                      | Recommended Value | Lower Bound Value                  | Upper Bound                        |
+|------------------------------|-------------------|------------------------------------|------------------------------------|
+| Mirostat Mode                | 2                 | Strictly 1 (Gentle Role Diffusion) | Strictly 2 (High Role Contrast)    |
+| Mirostat Tau                 | 2                 | N/A                                | N/A                                |
+| Mirostat Eta                 | 0.3               | Strictly 0.2 (Controlled, Precise) | Strictly 0.3 (Dynamic, Responsive) |
+| Dynamic Temperature          | true              | N/A                                | N/A                                |
+| Dynamic Temperature Low      | 0.1               | N/A                                | N/A                                |
+| Dynamic Temperature High     | 1                 | N/A                                | N/A                                |
+| Dynamic Temperature Exponent | 2                 | N/A                                | N/A                                |
+
+### Logic Enforcement
+
+```
+1. min_p               # Logic Control   
+2. top_p               # Quality Control
+```
+
+| Setting                      | Recommended Value | Lower Bound Value                  | Upper Bound                        |
+|------------------------------|-------------------|------------------------------------|------------------------------------|
+| Min P                        | 0.9               | 0.6                                | 0.9                                |
+| Top P                        | 0.3               | 0.8                                | 0.95                               |
