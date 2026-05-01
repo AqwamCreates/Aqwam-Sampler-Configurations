@@ -157,7 +157,7 @@ Conclusion: UCC doesn't eliminate context needs but reduces them dramatically an
 
 ### Quantization-Agnostic Settings
 
-| Setting                  | Recommended Value | Lower Bound Value                  | Upper Bound                        |
+| Setting                  | Recommended Value | Lower Bound Value                  | Upper Bound Value                  |
 |--------------------------|-------------------|------------------------------------|------------------------------------|
 | Top K                    | 50                | 40 (Low Expression Budget)         | 60 (High Expression Budget)        |
 | Mirostat Mode            | 2                 | Strictly 1 (Gentle Role Diffusion) | Strictly 2 (High Role Contrast)    |
