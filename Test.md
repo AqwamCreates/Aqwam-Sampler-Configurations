@@ -2,11 +2,12 @@
 
 ```
 1. mirostat            # Focus Control
-2. min_p               # Logic Control   
-3. top_p               # Quality Control 
-4. dynamic_temperature # Emotional Adaptation Control
-5. typical_p           # Consistency Control
-6. repetition_penalty  # Natural Flow Maintenance
+2. temperature
+3. min_p               # Logic Control   
+4. top_p               # Quality Control 
+5. dynamic_temperature # Emotional Adaptation Control
+6. typical_p           # Consistency Control
+7. repetition_penalty  # Natural Flow Maintenance
 ```
 
 | Setting                      | Recommended Value | Lower Bound Value                  | Upper Bound                        |
@@ -14,7 +15,7 @@
 | Mirostat Mode                | 2                 | Strictly 1 (Gentle Role Diffusion) | Strictly 2 (High Role Contrast)    |
 | Mirostat Tau                 | 2                 | N/A                                | N/A                                |
 | Mirostat Eta                 | 0.3               | Strictly 0.2 (Controlled, Precise) | Strictly 0.3 (Dynamic, Responsive) |
-| Temperature                  | 0.65              | 0.2 (Low Creativity)               | 0.5 (High Creativity)              |
+| Temperature                  | 0.1               | 0.2 (Low Creativity)               | 0.5 (High Creativity)              |
 | Min P                        | 0.9               | 0.6                                | 0.9                                |
 | Top P                        | 0.95              | 0.8                                | 0.95                               |
 | Dynamic Temperature          | true              | N/A                                | N/A                                |
