@@ -25,3 +25,7 @@
 | Repetition Penalty           | 1.1               | N/A                                | N/A                                |
 | Repetition Penalty Range     | 4096              | N/A                                | N/A                                |
 | Temperature                  | 0.5               | 0.2 (Low Creativity)               | 0.5 (High Creativity)              |
+
+# Tested Small Quant Models:
+
+| Model
