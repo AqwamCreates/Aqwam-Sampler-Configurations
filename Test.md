@@ -26,6 +26,9 @@
 | Repetition Penalty Range     | 4096              | N/A                                | N/A                                |
 | Temperature                  | 0.5               | 0.2 (Low Creativity)               | 0.5 (High Creativity)              |
 
-# Tested Small Quant Models:
+# Passed Small Quant Models:
 
-| Model
+| Model Name                                        | Model Parameter Size | Quantization | Description                                                 |
+|---------------------------------------------------|----------------------|--------------|-------------------------------------------------------------|
+| Qwen 3.5                                          | 4B                   | UD-IQ3_XXS   | Best All Rounder                                            |
+| Gemma 4 E4B Uncensored                            | 8B                   | Q3_K_S       | 2nd All Rounder                                             |
