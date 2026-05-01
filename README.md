@@ -50,4 +50,4 @@
 
 | Setting                      | Recommended Value | Lower Bound Value                  | Upper Bound                        |
 |------------------------------|-------------------|------------------------------------|------------------------------------|
-| Typical P                    | 0.95              | 0.85 (Low Potency)                 | 0.95 (High Potency)                |
+| Typical P                    | 0.95              | 0.85 (Low Control)                 | 0.95 (High Control)                |
