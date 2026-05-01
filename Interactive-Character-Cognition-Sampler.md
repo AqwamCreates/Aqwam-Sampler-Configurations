@@ -33,7 +33,7 @@ These samplers are stacked in this specific order to prioritize logic before cre
 
 ### Quantization-Agnostic Settings
 
-| Setting                  | Recommended Value | Lower Bound Value                  | Upper Bound                        |
+| Setting                  | Recommended Value | Lower Bound Value                  | Upper Bound Value                  |
 |--------------------------|-------------------|------------------------------------|------------------------------------|
 | Min P                    | 0.7               | 0.6                                | 0.7                                |
 | Top P                    | 0.9               | 0.8                                | 0.9                                |
