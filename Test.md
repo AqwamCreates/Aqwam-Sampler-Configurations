@@ -5,8 +5,8 @@
 2. dynamic_temperature # Emotional Adaptation Control
 3. min_p               # Logic Control   
 4. top_p               # Quality Control
-5. repetition_penalty  # Natural Flow Maintenance
-6. typical_p           # Consistency Control
+5. typical_p           # Consistency Control
+6. repetition_penalty  # Natural Flow Maintenance
 7. temperature
 ```
 
