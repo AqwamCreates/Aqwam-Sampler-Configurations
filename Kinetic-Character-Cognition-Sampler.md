@@ -33,6 +33,10 @@
 | Gemma 4 E4B                                       | 8B                   | UD-Q2_K_XL   | Best All Rounder                      |
 | Gemma 4 E4B                                       | 8B                   | UD-IQ3_XXS   | Best All Rounder                      |
 | Qwen 3.5                                          | 4B                   | UD-IQ3_XXS   | 2nd Best All Rounder                  |
+
+# "Mostly-Okay" Small Quant Models
+
+| Model Name                                        | Model Parameter Size | Quantization | Description                           |
 | Gemma 4 E4B                                       | 8B                   | UD-IQ2_M     | Reliance On Prompt Engineering        |
 | Gemma 4 E4B Uncensored                            | 8B                   | Q3_K_S       | Slight Loss In Instruction Following  |
 | Qwen 3.5                                          | 4B                   | UD-Q2_K_XL   | Strong Reliance On Prompt Engineering |
