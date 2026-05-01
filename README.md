@@ -1,5 +1,7 @@
 # Aqwam Sampler Configurations
 
+## Full-Stack Samplers
+
 | Sampler Name                                                                  | Property                                                                                                                                                                       |
 |-------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Universal Character Cognition](Universal-Character-Cognition-Sampler.md)     | Prompt Adherence Engine. Converts character prompts into a statistical prison that forces the model to conform strictly to the archetype, lore, and voice defined in the text. |
@@ -7,3 +9,5 @@
 | [Storyline Character Cognition](Storyline-Character-Cognition-Sampler.md)     | Storyline Engine. Converts character prompts into a dynamic agent that turns everything into a storyline.                                                                      |
 | [Empathetic Character Cognition](Empathetic-Character-Cognition-Sampler.md)   | Empathy Engine. Converts character prompts into a dynamic agent that connects with you as a person by reading your subtexts and actions.                                       |
 | [Kinetic Character Cognition](Kinetic-Character-Cognition-Sampler.md)         | High-Velocity Response Engine And Quantization Shield. Converts character prompts into extremely reactive agent that are resistant to quantizations.                           |
+
+## Sampler Modules
