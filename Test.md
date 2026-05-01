@@ -13,7 +13,7 @@
 | Setting                      | Recommended Value | Lower Bound Value                  | Upper Bound                        |
 |------------------------------|-------------------|------------------------------------|------------------------------------|
 | Mirostat Mode                | 2                 | Strictly 1 (Gentle Role Diffusion) | Strictly 2 (High Role Contrast)    |
-| Mirostat Tau                 | 2                 | N/A                                | N/A                                |
+| Mirostat Tau                 | 3                 | N/A                                | N/A                                |
 | Mirostat Eta                 | 0.3               | Strictly 0.2 (Controlled, Precise) | Strictly 0.3 (Dynamic, Responsive) |
 | Dynamic Temperature          | true              | N/A                                | N/A                                |
 | Dynamic Temperature Low      | 0.1               | N/A                                | N/A                                |
