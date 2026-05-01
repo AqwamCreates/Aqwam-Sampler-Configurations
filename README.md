@@ -41,7 +41,6 @@
 | Min P                        | 0.9               | 0.6                                | 0.9                                |
 | Top P                        | 0.3               | 0.8                                | 0.95                               |
 
-
 ### Consistency Controller
 
 ```
