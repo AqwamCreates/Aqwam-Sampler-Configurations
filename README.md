@@ -16,7 +16,7 @@
 
 ```
 1. mirostat            # Focus Control
-2. dynamic_temperature # Emotional Adaptation Control
+2. dynamic_temperature # Restoration Control
 ```
 
 | Setting                      | Recommended Value | Lower Bound Value                  | Upper Bound                        |
