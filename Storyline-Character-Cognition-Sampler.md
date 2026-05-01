@@ -34,7 +34,7 @@ These samplers are stacked in this specific order to prioritize logic before cre
 
 ### Quantization-Agnostic Settings
 
-| Setting                  | Recommended Value | Lower Bound Value                  | Upper Bound                        |
+| Setting                  | Recommended Value | Lower Bound Value                  | Upper Bound Value                  |
 |--------------------------|-------------------|------------------------------------|------------------------------------|
 | Typical P                | 0.95              | 0.85 (Low Potency)                 | 0.95 (High Potency)                |
 | Mirostat Mode            | 2                 | Strictly 1 (Gentle Role Diffusion) | Strictly 2 (High Role Contrast)    |
