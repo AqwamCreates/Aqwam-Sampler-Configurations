@@ -21,7 +21,7 @@
 | Dynamic Temperature Exponent | 2                 | N/A                                | N/A                                |
 | Min P                        | 0.9               | 0.6                                | 0.9                                |
 | Top P                        | 0.3               | 0.8                                | 0.95                               |
-| Typical P                    | 0.95              | 0.85 (Low Potency)                 | 0.95 (High Potency)                |
+| Typical P                    | 0.90              | 0.85 (Low Potency)                 | 0.95 (High Potency)                |
 | Repetition Penalty           | 1.1               | N/A                                | N/A                                |
 | Repetition Penalty Range     | 4096              | N/A                                | N/A                                |
 | Temperature                  | 0.5               | 0.2 (Low Creativity)               | 0.5 (High Creativity)              |
