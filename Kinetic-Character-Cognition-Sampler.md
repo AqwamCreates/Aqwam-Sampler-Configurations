@@ -10,7 +10,7 @@
 7. temperature
 ```
 
-| Setting                      | Recommended Value | Lower Bound Value                  | Upper Bound                        |
+| Setting                      | Recommended Value | Lower Bound Value                  | Upper Bound Value                  |
 |------------------------------|-------------------|------------------------------------|------------------------------------|
 | Mirostat Mode                | 2                 | Strictly 1 (Gentle Role Diffusion) | Strictly 2 (High Role Contrast)    |
 | Mirostat Tau                 | 2                 | N/A                                | N/A                                |
