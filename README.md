@@ -39,7 +39,7 @@
 | Setting                      | Recommended Value | Lower Bound Value                  | Upper Bound                        |
 |------------------------------|-------------------|------------------------------------|------------------------------------|
 | Min P                        | 0.9               | 0.6                                | 0.9                                |
-| Top P                        | 0.9               | 0.8                                | 0.95                               |
+| Top P                        | 0.9               | 0.25 (Low Quants)                  | 0.95 (High Quants)                 |
 
 ### Consistency Controller
 
