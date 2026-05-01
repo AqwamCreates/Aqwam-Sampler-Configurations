@@ -1,13 +1,13 @@
-# Empathetic Character Cognition Sampler
+# Test Character Cognition Sampler
 
 ```
 1. mirostat            # Focus Control
 2. dynamic_temperature # Emotional Adaptation Control
 3. min_p               # Logic Control   
 4. top_p               # Quality Control
-5. typical_p           # Consistency Control
-6. temperature
-7. repetition_penalty  # Natural Flow Maintenance
+5. repetition_penalty  # Natural Flow Maintenance
+6. typical_p           # Consistency Control
+7. temperature
 ```
 
 | Setting                      | Recommended Value | Lower Bound Value                  | Upper Bound                        |
@@ -20,7 +20,7 @@
 | Dynamic Temperature High     | 1                 | N/A                                | N/A                                |
 | Dynamic Temperature Exponent | 2                 | N/A                                | N/A                                |
 | Min P                        | 0.9               | 0.6                                | 0.9                                |
-| Top P                        | 0.95              | 0.8                                | 0.95                               |
+| Top P                        | 0.3               | 0.8                                | 0.95                               |
 | Typical P                    | 0.95              | 0.85 (Low Potency)                 | 0.95 (High Potency)                |
 | Temperature                  | 0.1               | 0.2 (Low Creativity)               | 0.5 (High Creativity)              |
 | Repetition Penalty           | 1.1               | N/A                                | N/A                                |
