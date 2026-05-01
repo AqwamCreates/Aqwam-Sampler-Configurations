@@ -24,4 +24,4 @@
 | Typical P                    | 0.95              | 0.85 (Low Potency)                 | 0.95 (High Potency)                |
 | Repetition Penalty           | 1.1               | N/A                                | N/A                                |
 | Repetition Penalty Range     | 4096              | N/A                                | N/A                                |
-| Temperature                  | 0.5               | 0.2 (Low Creativity)               | 0.5 (High Creativity)              |
+| Temperature                  | 0.65              | 0.2 (Low Creativity)               | 0.5 (High Creativity)              |
