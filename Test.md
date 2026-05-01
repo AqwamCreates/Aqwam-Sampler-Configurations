@@ -30,7 +30,8 @@
 
 | Model Name                                        | Model Parameter Size | Quantization | Description                           |
 |---------------------------------------------------|----------------------|--------------|---------------------------------------|
-| Qwen 3.5                                          | 4B                   | UD-IQ3_XXS   | Best All Rounder                      |
+| Gemma 4 E4B                                       | 8B                   | UD-IQ3_XXS   | Best All Rounder                      |
+| Qwen 3.5                                          | 4B                   | UD-IQ3_XXS   | 2nd Best All Rounder                  |
 | Gemma 4 E4B Uncensored                            | 8B                   | Q3_K_S       | Slight Loss In Instruction Following  |
 | Qwen 3.5                                          | 4B                   | UD-Q2_K_XL   | Strong Reliance On Prompt Engineering |
 
