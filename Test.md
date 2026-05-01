@@ -2,11 +2,10 @@
 
 ```
 1. mirostat            # Focus Control
-4. temperature
+2. dynamic_temperature # Emotional Adaptation Control
 5. min_p               # Logic Control   
 6. top_p               # Quality Control 
 7. repetition_penalty  # Natural Flow Maintenance
-2. dynamic_temperature # Emotional Adaptation Control
 3. typical_p           # Consistency Control
 ```
 
