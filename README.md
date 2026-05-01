@@ -12,7 +12,7 @@
 
 ## Sampler Modules
 
-### Quant Denoiser
+### Quantization Denoiser
 
 ```
 1. mirostat            # Focus Control
