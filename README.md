@@ -53,6 +53,6 @@
 
 ## Samplers
 
-* min_p: The tokens are only selected if it is above p% probability of the top probability token.
+* min_p: The tokens are only selected if it is above p% probability that is multiplied with top probability token.
 
 * top_p: The cumulative probability resulting from addition of individual token's probability (from highest to lowest) are used for selecting tokens, provided that it is under the p% cumulative probability threshold. 
