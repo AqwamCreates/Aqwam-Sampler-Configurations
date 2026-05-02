@@ -50,3 +50,9 @@
 | Setting                      | Recommended Value | Lower Bound Value                  | Upper Bound Value                  |
 |------------------------------|-------------------|------------------------------------|------------------------------------|
 | Typical P                    | 0.95              | 0.85 (Low Control)                 | 0.95 (High Control)                |
+
+## Samplers
+
+* min_p: The tokens are only selected if it is above p% probability.
+
+* top_p: The cumulative probability resulting from addition of individual token's probability (from highest to lowest) are used for selecting tokens, provided that it is under the p% cumulative probability threshold. 
