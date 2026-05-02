@@ -36,9 +36,9 @@
 
 | Setting                      | Recommended Value | Lower Bound Value                  | Upper Bound Value                  |
 |------------------------------|-------------------|------------------------------------|------------------------------------|
-| Min P                        | 0.45              | 0.6                                | 0.9                                |
+| Min P                        | 0.35              | 0.3                                | 0.4                                |
 | Top P                        | 0.65              | 0.60                               | 0.70                               |
-| Temperature                  | 0.7               | 0.6 (Low Creativity)               | 0.8 (High Creativity)              |
+| Temperature                  | 0.8               | 0.6 (Low Creativity)               | 0.9 (High Creativity)              |
 
 ## Tested Models
 
