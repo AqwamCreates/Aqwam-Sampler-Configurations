@@ -1,5 +1,7 @@
 # Kinetic Character Cognition Sampler
 
+## Configuration
+
 ```
 1. mirostat            # Focus Control
 2. dynamic_temperature # Emotional Adaptation Control
@@ -9,6 +11,8 @@
 6. repetition_penalty  # Natural Flow Maintenance
 7. temperature         # Creativity Control
 ```
+
+### General Settings (For Models Larger Than 4B)
 
 | Setting                      | Recommended Value | Lower Bound Value                  | Upper Bound Value                  |
 |------------------------------|-------------------|------------------------------------|------------------------------------|
@@ -25,6 +29,16 @@
 | Repetition Penalty           | 1.1               | N/A                                | N/A                                |
 | Repetition Penalty Range     | 4096              | N/A                                | N/A                                |
 | Temperature                  | 0.5               | 0.2 (Low Creativity)               | 0.5 (High Creativity)              |
+
+### Smaller Settings (For Models Smaller Than 4B)
+
+* Everything except these settings stays the same:
+
+| Setting                      | Recommended Value | Lower Bound Value                  | Upper Bound Value                  |
+|------------------------------|-------------------|------------------------------------|------------------------------------|
+| Min P                        | 0.45              | 0.6                                | 0.9                                |
+| Top P                        | 0.65              | 0.60                               | 0.70                               |
+| Temperature                  | 0.7               | 0.6 (Low Creativity)               | 0.8 (High Creativity)              |
 
 ## Tested Models
 
