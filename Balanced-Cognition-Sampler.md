@@ -1,3 +1,5 @@
+# Balanced Cognition Sampler
+
 Is Only Applicable To Smaller Model (Gemma 4 E2B Tested)
 
 ```
